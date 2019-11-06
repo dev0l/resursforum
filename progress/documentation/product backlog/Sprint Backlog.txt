@@ -1,0 +1,15 @@
+Kravlista:
+ 
+ * Mobilanpassning
+ * Tydliga riktlinjer för verksamheten och deras erbjudanden
+ * Tidsbokning, Kalender
+ * Livechatt
+ * Forum
+ * Söka lediga tjänster
+ * “Om oss” bör omplaceras, kombineras eller raderas
+ * Samlade kontakter på en sida (ej utspritt på sajten)
+ * Utseende, bl.a bilder (för närvarande omotiverade bilder)
+ * Nyhetsflöde
+ * Nyhetsbrev
+ * Snyggarebättretydligare presentation av kontakter t.ex. ‘Visitkort’
+ * Dropdown-menyer istället för rubrik-länkar

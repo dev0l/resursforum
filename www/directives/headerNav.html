@@ -1,0 +1,67 @@
+<nav id="head-navbar-rf" class="hvr-hang navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- use ng-init + ng-click to make nav collapsible -->
+      <button type="button" class="navbar-toggle collapsed" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--<a id="rf-logo" class="navbar-brand" ng-href="/"><img src="/images/resursforum_logo.png" alt="Resursforum"></a>-->
+    </div>
+
+    <!-- ng-class assigns the collapsed "in" class whenever appropriate -->
+    <div class="collapse navbar-collapse" ng-class="navCollapsed ? '' : 'in'">
+      <ul id="navbar-left-rf" class="nav navbar-nav">
+        <!-- no links yet... -->
+        <li>
+          <!--<a ng-click="$event.stopPropagation();" ng-href="/exempel">Exempel</a>-->
+          <!-- FIND SOLUTION/REMOVE ng-click="$event.stopPropagation();" -->
+        </li>
+      </ul>
+
+      <ul id="navbar-middle-rf" class="nav navbar-nav">
+
+        <!--<h4>Verksamhet</h4>-->
+        <li>
+          <select ng-click="$event.stopPropagation();" name="Verksamhet" id="">
+            <!-- FIND SOLUTION/REMOVE ng-click="$event.stopPropagation();" -->
+            <option value="Familjebehandling" selected disabled>Välj verksamhet</option>
+            <option value="Familjebehandling">Familjebehandling</option>
+            <option value="Utredningar">Utredningar</option>
+            <option value="Socionomkonsulter">Socionomkonsulter</option>
+            <option value="Privatpersoner">Privatpersoner</option>
+            <option value="Familjehem">Familjehem</option>
+          </select>
+        </li>
+        <!--<h4>Ort</h4>-->
+        <li>
+          <select ng-click="$event.stopPropagation();" name="" id="">
+            <!-- FIND SOLUTION/REMOVE ng-click="$event.stopPropagation();" -->
+            <option value="Ort" selected disabled>Välj ort</option>
+            <option value="Malmö">Malmö</option>
+            <option value="Kristianstad">Kristianstad</option>
+          </select>
+        </li>
+
+        <input ng-click="$event.stopPropagation();" type="submit" value="Sök">
+
+      </ul>
+
+      <ul id="navbar-right-rf" class="nav navbar-right">
+        <!-- !!!!! remove "nav" to remove display: block; -css-rule !!!!!-->
+        <li>
+          <a ng-click="$event.stopPropagation();" ng-href="/om-oss">Om oss</a>
+          <a ng-click="$event.stopPropagation();" ng-href="/verksamhet">Verksamhet</a>
+          <a ng-click="$event.stopPropagation();" ng-href="/kontakt">Kontakt</a>
+          <!-- FIND SOLUTION/REMOVE ng-click="$event.stopPropagation();" -->
+        </li>
+      </ul>
+      <!--<p class="navbar-text navbar-right">Time is: {{currentTime | date : 'mediumTime'}}</p>-->
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+  <i id="pull-down" class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+</nav>

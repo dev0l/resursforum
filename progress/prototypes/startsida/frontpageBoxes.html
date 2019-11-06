@@ -1,0 +1,55 @@
+<!-- new .container > .row to have columns within columns -->
+<!-- must use container-fluid as we are inside a .container already -->
+<div class="container-fluid">
+  <div class="row">
+   
+    <div class="col-xs-{{colSize}}" ng-repeat="well in wells">
+      <div id="pocket-well" class="well">
+      <div class="view view-sixth">
+       <img src="images/familj.jpg" />
+       <div class="mask">
+        <h3>{{well.title}}</h3>
+        <p>{{well.content}}</p>
+      </div>
+      <div id="pocket"></div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- <div class="main">
+                
+                <div class="view view-sixth">
+                    <img src="images/13.jpg" />
+                    <div class="mask">
+                        <h2>{{well.title}}</h2>
+                        <p>{{well.content}}</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                </div>
+                <div class="view view-sixth">
+                    <img src="images/6.jpg" />
+                    <div class="mask">
+                        <h2>{{well.title}}</h2>
+                        <p>{{well.content}}</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                </div>
+                <div class="view view-sixth">
+                    <img src="images/9.jpg" />
+                    <div class="mask">
+                        <h2>{{well.title}}</h2>
+                        <p>{{well.content}}</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                </div>
+                <div class="view view-sixth">
+                    <img src="images/8.jpg" />
+                    <div class="mask">
+                        <h2>{{well.title}}</h2>
+                        <p>{{well.content}}</p>
+                        <a href="#" class="info">Read More</a>
+                    </div>
+                </div>
+            </div> -->

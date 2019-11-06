@@ -1,0 +1,30 @@
+Prioritet 1 - 10 , 
+Tidsuppskattning 0, 1, 2, 3, 5, 8, 13, 20, 40, 100, ?, 8 (1poäng = 2 timmar)
+
+------------------------------------------------------------------------------------------------
+
+* Mobilanpassning									8 , 5
+
+* Tydliga riktlinjer för verksamheten och deras erbjudanden				8 , 2
+
+* Tidsbokning, Kalender									8 , 5
+
+* Livechatt										1 , 1
+
+* Forum											10 , 13
+
+* Söka lediga tjänster									6 , 2
+
+* “Om oss” bör omplaceras, kombineras eller raderas					6 , 1
+
+* Samlade kontakter på en sida (ej utspritt på sajten)					6 , 1
+
+* Utseende, bl.a bilder (för närvarande omotiverade bilder)				5 , 1
+
+* Nyhetsflöde										6 , 3
+
+* Nyhetsbrev										4 , ½
+
+* Snyggare/bättre/tydligare presentation av kontakter t.ex. ‘Visitkort’			6 , 1
+
+* Dropdown-menyer istället för rubrik-länkar						10 , 10

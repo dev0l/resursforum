@@ -1,0 +1,144 @@
+<!-- Verksamheter -->
+
+<div class="container-fluid">
+
+	<div class="row">
+
+		<h1 id="page-title">Verksamheter</h1>
+
+		<div ng-repeat="headCat in headCategory" class="col-sm-8 menu-bottom animated wow fadeInUp">
+			<div class="menu-bottom1">
+				<div class="block">
+					<img src="{{headCat.pic}}" alt="" class="img-responsive">
+					<div class="boxs">
+						<a ng-click="headCat.id = !headCat.id">
+							<h4>{{headCat.headTitle}}</h4>
+						</a>
+						<!--<br>-->
+						<a ng-repeat="subCat in headCat.subCats" ng-click="subCat.id = !subCat.id">{{subCat.headTitle}}<br></a>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="row">
+		<div class="col-xs-24" ng-repeat="headCat in headCategory" ng-hide="headCat.id">
+      <h1><strong>{{headCat.title}}</strong></h1>
+      <h2><strong>{{headCat.subTitle}}</strong></h2>
+			<h3>{{headCat.text}}</h3>
+		</div>
+		<div class="col-xs-12 col-sm-24" ng-repeat="headCat in headCategory">
+			<div ng-repeat="subCat in headCat.subCats" ng-hide="subCat.id">
+				<div class="info">
+					<strong>{{subCat.subTitle}}</strong>
+					<p>{{subCat.text}}</p>
+				</div>
+			</div>
+		</div>
+    <div class="clearfix"> </div>
+	</div>
+
+</div>
+
+<!--<div ng-repeat="subCat in subCategory" class="menu-bottom animated wow fadeInUp">
+      <div class="col-sm-8 menu-bottom1">
+        <div class="block">
+          <a href="/allaVerksamheter/#familjebehandling">
+            <img src="images/verksamhet/familj1.jpg" alt="" class="img-responsive">
+            <div class="boxs">
+              <h4>Familjebehandling</h4>
+              <br>
+              <a href="/allaVerksamheter/#grundsyn"><b>Vår grundsyn</b></a><br>
+              <a href=".html"><b>Familjesamtal</b></a><br>
+              <a href=".html"><b>Praktiskt pedagogiskt familjearbete</b></a><br>
+              <a href=".html"><b>Marte Meo</b></a><br>
+              <a href=".html"><b>Familjehemsstöd</b></a>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-8 menu-bottom1">
+        <div class="block">
+          <a href="utredningar.html">
+            <img src="images/verksamhet/familj2.jpg" alt="" class="img-responsive">
+            <div class="boxs">
+              <h4>Utredningar</h4>
+              <br>
+              <a href=".html"><b>Hemmabaserade instensivutredningar</b></a><br>
+              <a href=".html"><b>Utredning med fokus på Känslo- och Beteendemässig utveckling</b></a><br>
+              <a href=".html">Samspelsbeskrivningar</b></a>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-8 menu-bottom1">
+        <div class="block">
+          <a href="socionomkonsulter.html">
+            <img src="images/verksamhet/familj3.jpg" alt="" class="img-responsive">
+            <div class="boxs">
+              <h4>Socionomkonsulter</h4>
+              <br>
+              <a href=".html"><b>Enstaka utredningar</b></a><br>
+              <a href=".html"><b>Regelverk</b></a>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+
+    <div class="menu-bottom animated wow fadeInRight">
+      <div class="col-sm-8 menu-bottom1">
+        <div class="block">
+          <a href="privatpersoner.html">
+            <img src="images/verksamhet/familj4.jpg" alt="" class="img-responsive">
+            <div class="boxs">
+              <h4>Privatpersoner</h4>
+              <br>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div></div>
+      <div class="col-sm-8 menu-bottom1">
+        <div class="block">
+          <a href="familjehem.html">
+            <img src="images/verksamhet/familj5.jpg" alt="" class="img-responsive">
+            <div class="boxs">
+              <h4>Familjehem</h4>
+              <br>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-8 menu-bottom1">
+        <div class="block">
+          <a href="">
+            <img src="images/verksamhet/familj6.jpg" alt="" class="img-responsive">
+            <div class="boxs">
+              <h4>Något annat..</h4>
+              <br>
+              <p>annat viktigt kanske..</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>-->
+
+<!--<iframe name='myIframe'>
+    <div id="kategori" class="row">
+      <div class="col-xs-24" ng-repeat="headCat in headCategory">
+        <h2>{{headCat.headTitle}}</h2>
+        <h3>{{headCat.subTitle}}</h3>
+        <p>{{headCat.text}}</p>
+      </div>
+    </div>
+</iframe>-->
+
+<!--</div>
+				</div>-->
